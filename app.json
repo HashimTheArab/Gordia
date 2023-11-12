@@ -23,8 +23,13 @@
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "This app allows you to select a photo of a maze, and it will solve it in front of your eyes."
+        }
+      ]
+    ]
   }
 }
